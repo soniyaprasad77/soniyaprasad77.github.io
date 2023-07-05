@@ -294,7 +294,7 @@ nav .fas{
 
 @media only screen and (max-width:600px){
     #header{
-        background-image: url(Untitled\ design\ \(4\).png);
+        background-image: URL("https://github.com/soniyaprasad77/soniyaprasad77.github.io/blob/main/Untitled%20design%20(4).png");
     }
     .header-text {
         font-size:16px;
