@@ -292,7 +292,7 @@ nav .fas{
 
 /* -------------------css for small screen----------------------- */
 
-@media only screen and (max-width:600px){
+@media only screen and (max-width:400px){
     #header{
         background-image: URL("https://raw.githubusercontent.com/soniyaprasad77/soniyaprasad77.github.io/main/Untitled%20design%20(4).png");
     }
