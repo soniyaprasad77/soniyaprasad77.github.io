@@ -342,6 +342,7 @@ nav ul .fas{
 }
 .about-col-2{
     font-size: 14px;
+    overflow:hidden;
 }
 .tab-links{
     font-size:18px;
