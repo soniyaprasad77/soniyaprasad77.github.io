@@ -330,6 +330,11 @@ nav ul .fas{
     left:25px;
     cursor:pointer;
 }
+    #about{
+ padding:0;
+
+
+}
 .sub-title{
     font-size:40px;
 }
@@ -340,7 +345,7 @@ nav ul .fas{
     margin-bottom: 30px;
 }
 .about-col-2{
-    font-size: 12px;
+    font-size: 14px;
 }
 .tab-links{
     font-size:18px;
