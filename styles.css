@@ -71,11 +71,7 @@ nav ul li a:hover::after{
 
 }
 /*------About-------*/
-#about{
- padding:80px 0;
 
-
-}
 .row{
     display:flex;
     justify-content:space-between;
