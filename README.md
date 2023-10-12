@@ -9,3 +9,11 @@ git clone https://github.com/YOUR_USERNAME/soniyaprasad77.github.io.git
 ```
 
 That's it, and you are ready to go!! 🎉
+
+## Contributing
+
+First of all, thank you for the time you'll take to contribute.  Every commit is valuable.
+
+For a pleasant adventure in open source contribution, please read the [code of conduct](./CODE_OF_CONDUCT.md) and the [contribution guide](./CONTRIBUTING.md).
+
+You'll find in these two files all informations you'll need.
