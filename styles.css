@@ -31,11 +31,6 @@ h1 {
     font-family: 'Gabarito', serif;
 }
 
-p, li {
-    font-size: 1.2rem;
-    line-height: 30px;
-}
-
 .container{
     padding:10px 10%;
 
@@ -78,10 +73,6 @@ nav ul li a:hover::after{
     font-size:30px;
 }
 
-.header-text p {
-    font-size: 1.6rem;
-}
-
 .header-text h1{
     font-size:60px;
     margin-top:20px;
@@ -110,11 +101,8 @@ nav ul li a:hover::after{
     flex-basis:60%;
 }
 .sub-title{
-    font-size:3rem;
+    font-size:60px;
     font-weight: 50px;
-}
-.about-me-sub-title {
-    margin-bottom: 10px;
 }
 .tab-titles{
     display:flex;
