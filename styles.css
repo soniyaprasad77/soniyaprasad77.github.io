@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap');
+
 *{
     margin:0;
     padding:0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto condensed', sans-serif;
     box-sizing: border-box;
 }
 html{
@@ -20,6 +22,15 @@ body{
     background-position: center;
    
 }
+
+h1 {
+    font-family: 'Gabarito', serif;
+}
+
+.name {
+    font-family: 'Gabarito', serif;
+}
+
 .container{
     padding:10px 10%;
 
@@ -61,6 +72,7 @@ nav ul li a:hover::after{
     margin-top:20%;
     font-size:30px;
 }
+
 .header-text h1{
     font-size:60px;
     margin-top:20px;
