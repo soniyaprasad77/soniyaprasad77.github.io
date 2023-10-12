@@ -1,13 +1,17 @@
 
 # Contributing Guidelines
 
-Welcome to the [Your Repository Name] repository! We're thrilled to have you here. 
+Welcome to the soniyaprasad77's portfolio repository! We're thrilled to have you here. 
+
+## Code of Conduct
+
+Please review our [Code of Conduct](CODE_OF_CONDUCT.md) before contributing.
 
 ## How to Contribute
 
 1. Fork the repository.
 2. Clone the forked repository to your local machine.
-3. Create a new branch for your contribution:
+3. Once you're assigned to an issue (see [check if an issue exists and other paragraphs below](#check-if-an-issue-exists)) create a new branch for your contribution:
    ```
    git checkout -b feature/your-feature-name
    ```
@@ -21,11 +25,12 @@ Welcome to the [Your Repository Name] repository! We're thrilled to have you her
    ```
    git push origin feature/your-feature-name
    ```
-8. Open a pull request on the main repository's branch.
+8. Open a pull request on the main repository's branch with a valuable title and description.
 
-## Code of Conduct
 
-Please review our [Code of Conduct](CODE_OF_CONDUCT.md) before contributing.
+## Check if an issue exists
+
+If you spot a problem, please [search if an issue already exists](https://github.com/soniyaprasad77/soniyaprasad77.github.io/issues). If nobody is assigned to this issue, comment the issue to ask to be assigned by maintainers.
 
 ## Reporting Bugs
 
@@ -35,9 +40,9 @@ If you find a bug, please open an issue and provide detailed information about h
 
 If you have an idea for an enhancement, please open an issue and outline your proposal.
 
-## Style Guide
+<!-- ## Style Guide -->
 
-Please follow our [Style Guide](STYLE_GUIDE.md) to maintain a consistent codebase.
+<!-- Please follow our [Style Guide](STYLE_GUIDE.md) to maintain a consistent codebase. -->
 
 ## License
 
@@ -46,9 +51,3 @@ By contributing, you agree that your contributions will be licensed under the [L
 ## Acknowledgements
 
 We appreciate your time and effort in contributing to [https://github.com/soniyaprasad77/soniyaprasad77.github.io]!
-
----
-
-Remember to replace `[Your Repository Name]` with the actual name of your repository.
-
-Feel free to customize this template to better suit your specific needs and guidelines for contributions. You may want to include specific details about the technology stack, testing procedures, or any other specific requirements for contributors to follow.
