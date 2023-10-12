@@ -15,17 +15,17 @@ Please review our [Code of Conduct](CODE_OF_CONDUCT.md) before contributing.
    ```
    git checkout -b feature/your-feature-name
    ```
-5. Make your changes and ensure your code is clean and well-documented.
-6. Test your changes thoroughly.
-7. Commit your changes:
+4. Make your changes and ensure your code is clean and well-documented.
+5. Test your changes thoroughly.
+6. Commit your changes:
    ```
    git commit -m "Descriptive commit message"
    ```
-8. Push to your forked repository:
+7. Push to your forked repository:
    ```
    git push origin feature/your-feature-name
    ```
-9. Open a pull request on the main repository's branch with a valuable title and description.
+8. Open a pull request on the main repository's branch with a valuable title and description.
 
 
 ## Check if an issue exists
