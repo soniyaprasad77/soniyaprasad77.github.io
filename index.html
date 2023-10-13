@@ -1,214 +1,394 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="Viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soniya Prasad Web</title>
-    <link rel="stylesheet"  href="styles.css">
-    <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/soniyaprasad77/soniyaprasad77.github.io/main/android-chrome-192x192.png">
-    <script src="https://kit.fontawesome.com/f6f6dc9eec.js" crossorigin="anonymous"></script>
-</head>
-<body>
-   <div id="header">
-       <div class="container">
-     
-      <nav>
-        <img src="https://raw.githubusercontent.com/soniyaprasad77/soniyaprasad77.github.io/main/logo.png" class="logo">
-        <ul id="sidemenu">
-            <li><a href="#header">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#contact">More</a></li>
-            <i class="fas fa-times" onclick="closemenu()"></i>
-
-        </ul>
-        <i class="fas fa-bars" onclick="openmenu()"></i>
-      </nav>
-      <div class="header-text">
-        <p>Full Stack Web Developer</p>
-        <h1>Hi, I'm <span class="name">Soniya</span><br>Prasad From India.</h1>
-    
-      </div>
-       </div>
-   </div> 
-
-   <!----------------------------About----------------------------->
-   <div id="about">
-    <div class="container">
-        <div class="row">
-            <div class="about-col-1">
-                <img src="https://raw.githubusercontent.com/soniyaprasad77/soniyaprasad77.github.io/main/Photo-to-use.png">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="Viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <title>Soniya Prasad Web</title>
+        <link
+            rel="stylesheet"
+            href="styles.css"
+        />
+        <link
+            rel="icon"
+            type="image/x-icon"
+            href="https://raw.githubusercontent.com/soniyaprasad77/soniyaprasad77.github.io/main/android-chrome-192x192.png"
+        />
+        <script
+            src="https://kit.fontawesome.com/f6f6dc9eec.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img
+                        src="https://raw.githubusercontent.com/soniyaprasad77/soniyaprasad77.github.io/main/logo.png"
+                        class="logo"
+                    />
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#contact">More</a></li>
+                        <i
+                            class="fas fa-times"
+                            onclick="closemenu()"
+                        ></i>
+                    </ul>
+                    <i
+                        class="fas fa-bars"
+                        onclick="openmenu()"
+                    ></i>
+                </nav>
+                <div class="header-text">
+                    <p>Full Stack Web Developer</p>
+                    <h1>
+                        Hi, I'm
+                        <span class="name">Soniya<br />Prasad</span> From India.
+                    </h1>
+                </div>
             </div>
-            <div class="about-col-2">
-                <h1 class="sub-title">About Me</h1>
-                <p>"Hi, I'm Soniya Prasad. I'm a student pursuing a Bachelor of Technology in Computer Science and Engineering and a full-Stack web developer.
-                     I've been passionate about coding and creating visually appealing websites for 1 year.
-                    I'm excited to continue learning and growing in my studies and development skills.
-                    With expertise in HTML5, CSS3, and responsive design, I craft engaging user interfaces that deliver exceptional user experiences across devices and browsers. 
-                    Moving to the back end, I'm skilled in server-side technologies like Node.js, Express.js, and database systems like MongoDB or MySQL.
-                    If you're looking for a motivated and skilled front-end developer,
-               I'd love to connect and discuss how I can contribute to your team or project."</p>
-            <div class="tab-titles">
-                <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
-                <div class="tab-links" onclick="opentab('education')">Education</div>
-                <div class="tab-links" onclick="opentab('experience')">Experience</div>
+        </div>
+
+        <!----------------------------About----------------------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img
+                            src="https://raw.githubusercontent.com/soniyaprasad77/soniyaprasad77.github.io/main/Photo-to-use.png"
+                        />
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>
+                            "Hi, I'm Soniya Prasad. I'm a student pursuing a
+                            Bachelor of Technology in Computer Science and
+                            Engineering and a full-Stack web developer. I've
+                            been passionate about coding and creating visually
+                            appealing websites for 1 year. I'm excited to
+                            continue learning and growing in my studies and
+                            development skills. With expertise in HTML5, CSS3,
+                            and responsive design, I craft engaging user
+                            interfaces that deliver exceptional user experiences
+                            across devices and browsers. Moving to the back end,
+                            I'm skilled in server-side technologies like
+                            Node.js, Express.js, and database systems like
+                            MongoDB or MySQL. If you're looking for a motivated
+                            and skilled front-end developer, I'd love to connect
+                            and discuss how I can contribute to your team or
+                            project."
+                        </p>
+                        <div class="tab-titles">
+                            <div
+                                class="tab-links active-link"
+                                onclick="opentab('skills')"
+                            >
+                                Skills
+                            </div>
+                            <div
+                                class="tab-links"
+                                onclick="opentab('education')"
+                            >
+                                Education
+                            </div>
+                            <div
+                                class="tab-links"
+                                onclick="opentab('experience')"
+                            >
+                                Experience
+                            </div>
+                        </div>
+                        <div
+                            class="tab-contents active-tab"
+                            id="skills"
+                        >
+                            <ul>
+                                <li>
+                                    <span>UI/UX</span><br />Designing Web/App
+                                    interfaces
+                                </li>
+                                <li>
+                                    <span>Front-End Web Development</span
+                                    ><br />HTML5, CSS3, JavaScript, ReactJs
+                                </li>
+                                <li>
+                                    <span>Back-End Web Development</span
+                                    ><br />ExpressJs, Nodejs, MongoDB
+                                </li>
+                            </ul>
+                        </div>
+                        <div
+                            class="tab-contents"
+                            id="education"
+                        >
+                            <ul>
+                                <li>
+                                    <span>B.tech in CSE</span><br />Mahatma
+                                    Gandhi Central University <br />Cgpa:8.8
+                                </li>
+                                <li>
+                                    <span>Intermediate</span><br />Jeewan Public
+                                    School <br />Grade:89%
+                                </li>
+                                <li>
+                                    <span>Matriculation</span><br />Shanti
+                                    Niketan Awasiya Bal Vidyalaya
+                                    <br />Grade:86%
+                                </li>
+                            </ul>
+                        </div>
+                        <div
+                            class="tab-contents"
+                            id="experience"
+                        >
+                            <ul>
+                                <li>
+                                    <span>UI/UX</span><br />Designing Web/App
+                                    interfaces
+                                </li>
+                                <li>
+                                    <span>Front-End Web Development</span
+                                    ><br />HTML5, CSS3, JavaScript, ReactJs
+                                </li>
+                                <li>
+                                    <span>Back-End Web Development</span
+                                    ><br />ExpressJs, Nodejs, MongoDB
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
-           <div class="tab-contents active-tab" id="skills">
-            <ul>
-                
-                <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
-                <li><span>Front-End Web Development</span><br>HTML5, CSS3, JavaScript, ReactJs</li>
-                <li><span>Back-End Web Development</span><br>ExpressJs, Nodejs, MongoDB</li>
-            </ul>
-           </div>
-           <div class="tab-contents" id="education">
-            <ul>
-                <li><span>B.tech in CSE</span><br>Mahatma Gandhi Central University <br>Cgpa:8.8</li>
-                <li><span>Intermediate</span><br>Jeewan Public School <br>Grade:89%</li>
-                 <li><span>Matriculation</span><br>Shanti Niketan Awasiya Bal Vidyalaya <br>Grade:86%</li>
-                
-            </ul>
-           </div>
-           <div class="tab-contents" id="experience">
-            <ul>
-                
-                <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
-                <li><span>Front-End Web Development</span><br>HTML5, CSS3, JavaScript, ReactJs</li>
-                <li><span>Back-End Web Development</span><br>ExpressJs, Nodejs, MongoDB</li>
-            </ul>
-           </div>
         </div>
-    </div>
-   </div>
-   </div>
-   <!-------------------------------Projects----------------------------->
-   <div id="projects">
-    <div class="container">
-        <h1 class="sub-title">My Projects</h1>
-        <div class="projects-list">
-          <div>
-            <i class="fa-brands fa-css3-alt"></i>
-            <h2>CSS Documentation Page</h2>
-            <p>This page is about CSS.Cascading Style Sheets (CSS) is a stylesheet language used
-                 to describe the presentation of a document written in HTML or XML.</p>
-                 <a href="https://www.freecodecamp.org/certification/Soniya_Prasad/responsive-web-design">View Project</a>
-                 <a href="https://github.com/soniyaprasad77/css-documentation">View Code</a>
-          </div>
-          <div>
-            <i class="fa-solid fa-code"></i>
-            <h2>Site Saver Chrome Extension</h2>
-            <p>This is a chrome extension build using HTML, CSS and JavaScript. 
-                This is used to save the links of your choice and can be accessed whenever you want to visit a web
-                just by clicking over the saved URLs.
-            </p>
-            <a href="https://github.com/soniyaprasad77/Lead-Tracker/blob/main/README.md">View Project</a>
-            <a href="https://github.com/soniyaprasad77/Lead-Tracker">View Code</a>
-          </div>
-          <div>
-            <i class="fa-brands fa-product-hunt"></i>
-            <h2>Pokemon Daycare Service</h2>
-            <p>This is a product landing page. A product landing page is a 
-                post-click page created specifically to convince a visitor to convert on 
-                a product-related offer.</p>
-                <a href="https://www.freecodecamp.org/certification/Soniya_Prasad/responsive-web-design">View Project</a>
-                <a href="https://www.freecodecamp.org/certification/Soniya_Prasad/responsive-web-design">View Code</a>
-          </div>
-
-
-        </div>
-    </div>
-   </div>
-
-   <!-----------------------------Contact Us-------------------------->
-   <div id="contact">
-    <div class="container">
-        <div class="row">
-          <div class="contact-left">
-            <h1 class="sub-title">Contact Me</h1>
-            <p><i class="fa-solid fa-envelope"></i>soniyaprasad73688@gmail.com</p>
-           
-            <div class="social-icons">
-                <a href="https://twitter.com/prasad_soniya" target="_blank"><i class="fab fa-twitter-square"></i></a>
-                <a href="https://www.instagram.com/_soni___ya/" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/in/soniya-prasad-a8769b1a8/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/soniyaprasad77" target="_blank"><i class="fab fa-github"></i></a>
+        <!-------------------------------Projects----------------------------->
+        <div id="projects">
+            <div class="container">
+                <h1 class="sub-title">My Projects</h1>
+                <div class="projects-list">
+                    <div>
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <h2>CSS Documentation Page</h2>
+                        <p>
+                            This page is about CSS.Cascading Style Sheets (CSS)
+                            is a stylesheet language used to describe the
+                            presentation of a document written in HTML or XML.
+                        </p>
+                        <a
+                            href="https://www.freecodecamp.org/certification/Soniya_Prasad/responsive-web-design"
+                            >View Project</a
+                        >
+                        <a
+                            href="https://github.com/soniyaprasad77/css-documentation"
+                            >View Code</a
+                        >
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Site Saver Chrome Extension</h2>
+                        <p>
+                            This is a chrome extension build using HTML, CSS and
+                            JavaScript. This is used to save the links of your
+                            choice and can be accessed whenever you want to
+                            visit a web just by clicking over the saved URLs.
+                        </p>
+                        <a
+                            href="https://github.com/soniyaprasad77/Lead-Tracker/blob/main/README.md"
+                            >View Project</a
+                        >
+                        <a href="https://github.com/soniyaprasad77/Lead-Tracker"
+                            >View Code</a
+                        >
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-product-hunt"></i>
+                        <h2>Pokemon Daycare Service</h2>
+                        <p>
+                            This is a product landing page. A product landing
+                            page is a post-click page created specifically to
+                            convince a visitor to convert on a product-related
+                            offer.
+                        </p>
+                        <a
+                            href="https://www.freecodecamp.org/certification/Soniya_Prasad/responsive-web-design"
+                            >View Project</a
+                        >
+                        <a
+                            href="https://www.freecodecamp.org/certification/Soniya_Prasad/responsive-web-design"
+                            >View Code</a
+                        >
+                    </div>
+                </div>
             </div>
-            <a href="https://github.com/soniyaprasad77/soniyaprasad77.github.io/blob/main/resume%20(2).pdf" download class="btn btn2">View CV</a>
-           </div>
-           <div class="contact-right">
-                     <form name="submit-to-google-sheet">
-                        <input type="text" name="Name" placeholder="Your Good Name.." required>
-                        <input type="email" name="email" placeholder="Your email..." required>
-                        <textarea name="Message" rows="6" placeholder="Your Message..."></textarea>
-                        <button type="submit" class="btn btn2">Submit</button>
-                     </form>
-                     <span id="msg"></span>
-           </div>
-
         </div>
-    </div>
-    <div class="copyright">
-        <p>copyright @ Soniya. <i class="fa-solid fa-heart"></i> Made with HTML, CSS and JavaScript</p>
-      </div>
-   </div>
-   
-   <script >
-        var tablinks = document.getElementsByClassName("tab-links");
-        var tabcontents= document.getElementsByClassName("tab-contents");
-        function opentab(tabname){
-           for(tablink of tablinks){
-            tablink.classList.remove("active-link");
-           }
-           for( tabcontent of tabcontents){
-            tabcontent.classList.remove("active-tab");
-            
-    
-        }
-        event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add("active-tab");
-    }
-   </script>
-   <script>
-    var sidemenu=document.getElementById("sidemenu");
-    function openmenu(){
-          sidemenu.style.right= "0";
-    }
-    function closemenu(){
-          sidemenu.style.right= "-200px";
-    }
-   </script>
-   <script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbxH5fxfqQLK9QR05D20SKhSxipraz0xHX-FsiWRiLW0UL9nRH9WckUCHoCCEKWqE7GcSg/exec'
-    const form = document.forms['submit-to-google-sheet']
-    const msg = document.getElementById("msg")
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => {
-            msg.innerHTML = "ThankYou. Your Message has been sent Successfully."
-            setTimeout(function(){
-                msg.innerHTML=""
-            },5000)
-            form.reset()
-        })
-        .catch(error => console.error('Error!', error.message))
-    })
-  </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://soniyaprasad77.github.io/",
-      "@type": "Personal Portfolio Website",
-      "name": "Soniya Prasad",
-      "author": {
-        "@type": "Person",
-        "name": "Soniya Prasad"
-      },
-      "datePublished": "2023-03-04",
-      "description": "This is a Web Developer",
-      "prepTime": "PT20M"
-    }
-    </script>
-</body>
 
+        <!-----------------------------Contact Us-------------------------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p>
+                            <i class="fa-solid fa-envelope"></i
+                            >soniyaprasad73688@gmail.com
+                        </p>
+
+                        <div class="social-icons">
+                            <a
+                                href="https://twitter.com/prasad_soniya"
+                                target="_blank"
+                                ><i class="fab fa-twitter-square"></i
+                            ></a>
+                            <a
+                                href="https://www.instagram.com/_soni___ya/"
+                                target="_blank"
+                                ><i class="fab fa-instagram"></i
+                            ></a>
+                            <a
+                                href="https://www.linkedin.com/in/soniya-prasad-a8769b1a8/"
+                                target="_blank"
+                                ><i class="fab fa-linkedin"></i
+                            ></a>
+                            <a
+                                href="https://github.com/soniyaprasad77"
+                                target="_blank"
+                                ><i class="fab fa-github"></i
+                            ></a>
+                        </div>
+                        <a
+                            href="https://github.com/soniyaprasad77/soniyaprasad77.github.io/blob/main/resume%20(2).pdf"
+                            download
+                            class="btn btn2"
+                            >View CV</a
+                        >
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input
+                                type="text"
+                                name="Name"
+                                placeholder="Your Good Name.."
+                                required
+                            />
+                            <input
+                                type="email"
+                                name="email"
+                                placeholder="Your email..."
+                                required
+                            />
+                            <textarea
+                                name="Message"
+                                rows="6"
+                                placeholder="Your Message..."
+                            ></textarea>
+                            <button
+                                type="submit"
+                                class="btn btn2"
+                            >
+                                Submit
+                            </button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <!-- My btn -->
+            <button class="back-to-top hidden-top-btn">
+                <a href="#header"
+                    ><i class="fa-solid fa-arrow-up fa-2xl"></i
+                ></a>
+            </button>
+            <div class="copyright">
+                <p>
+                    copyright @ Soniya. <i class="fa-solid fa-heart"></i> Made
+                    with HTML, CSS and JavaScript
+                </p>
+            </div>
+        </div>
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+            //scroll to top btn
+            const showOnPx = 100;
+            const backToTopButton = document.querySelector(".back-to-top");
+
+            const scrollContainer = () => {
+                return document.documentElement || document.body;
+            };
+
+            document.addEventListener("scroll", () => {
+                if (scrollContainer().scrollTop > showOnPx) {
+                    backToTopButton.classList.remove("hidden-top-btn");
+                } else {
+                    backToTopButton.classList.add("hidden-top-btn");
+                }
+            });
+            const goToTop = () => {
+                document.body.scrollIntoView({
+                    behavior: "smooth",
+                });
+            };
+            backToTopButton.addEventListener("click", goToTop);
+        </script>
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+            function openmenu() {
+                sidemenu.style.right = "0";
+            }
+            function closemenu() {
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+        <script>
+            const scriptURL =
+                "https://script.google.com/macros/s/AKfycbxH5fxfqQLK9QR05D20SKhSxipraz0xHX-FsiWRiLW0UL9nRH9WckUCHoCCEKWqE7GcSg/exec";
+            const form = document.forms["submit-to-google-sheet"];
+            const msg = document.getElementById("msg");
+            form.addEventListener("submit", (e) => {
+                e.preventDefault();
+                fetch(scriptURL, { method: "POST", body: new FormData(form) })
+                    .then((response) => {
+                        msg.innerHTML =
+                            "ThankYou. Your Message has been sent Successfully.";
+                        setTimeout(function () {
+                            msg.innerHTML = "";
+                        }, 5000);
+                        form.reset();
+                    })
+                    .catch((error) => console.error("Error!", error.message));
+            });
+        </script>
+        <script type="application/ld+json">
+            {
+                "@context": "https://soniyaprasad77.github.io/",
+                "@type": "Personal Portfolio Website",
+                "name": "Soniya Prasad",
+                "author": {
+                    "@type": "Person",
+                    "name": "Soniya Prasad"
+                },
+                "datePublished": "2023-03-04",
+                "description": "This is a Web Developer",
+                "prepTime": "PT20M"
+            }
+        </script>
+    </body>
 </html>

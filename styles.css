@@ -22,6 +22,28 @@ body{
     background-position: center;
    
 }
+.back-to-top {
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    height: 70px;
+    width: 70px;
+    border-radius: 70px;
+    color: #ff004f;
+}
+.back-to-top>a{
+    color: #ff004f;
+}
+.back-to-top:hover{
+    background-color: #ff004f;
+    scale: 1.1;
+    transition-duration: 0.5s;
+    
+}
+.back-to-top>a:hover{
+    color: white;
+}
+
 
 h1 {
     font-family: 'Gabarito', serif;
