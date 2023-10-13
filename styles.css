@@ -24,10 +24,10 @@ body{
 }
 .back-to-top {
     position: fixed;
-    right: 2rem;
-    bottom: 2rem;
-    height: 70px;
-    width: 70px;
+    right: 1rem;
+    bottom: 1rem;
+    height: 40px;
+    width: 40px;
     border-radius: 70px;
     color: #ff004f;
 }
