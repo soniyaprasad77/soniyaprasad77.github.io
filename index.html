@@ -376,6 +376,12 @@
                     .catch((error) => console.error("Error!", error.message));
             });
         </script>
+        <script>
+            window.addEventListener('scroll', function() {
+                var nav = document.querySelector('nav');
+                nav.classList.toggle('scrolled', window.scrollY > 0);
+            });
+        </script>
         <script type="application/ld+json">
             {
                 "@context": "https://soniyaprasad77.github.io/",
