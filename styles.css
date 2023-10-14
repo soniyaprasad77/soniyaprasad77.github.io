@@ -100,7 +100,7 @@ nav ul li a:hover::after{
     width:100%;
 }
 nav.scrolled {
-    background-color: #14162e;
+    background-color: #262626;
   }
 
 .header-text{
