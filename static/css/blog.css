@@ -1,22 +1,22 @@
-/* styles.css */
-
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000000; /* Dark background */
-    color: #fff; /* Light text color */
+    background-color: #000000;
+    color: #fff; 
 }
 
 header {
-    background-color: #333; /* Darker header */
+    background-color: #333; 
     color: #fff;
     padding: 20px 0;
     text-align: center;
 }
 .logo{
     align-items: center;
-    color:rgb(0, 219, 253)
+    color:rgb(0, 219, 253);
+    font-size: 24px;
+    font-weight: bold;
 }
 nav {
     display: flex;
@@ -26,24 +26,6 @@ nav {
     margin: 0 auto;
 }
 
-.logo {
-    font-size: 24px;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-}
-
-nav ul li {
-    margin-right: 20px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: 600;
-}
 
 .blog {
     max-width: 1200px;
@@ -54,9 +36,9 @@ nav a {
 }
 
 .blog-post {
-    background-color: #8a8a8a; /* Darker blog post background */
+    background-color: #8a8a8a;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
     margin: 20px;
     width: 30%;
     text-align: center;
@@ -71,12 +53,12 @@ nav a {
 .blog-post h2 {
     font-size: 20px;
     margin-top: 10px;
-    color: #fff; /* White title text */
+    color: #fff; 
 }
 
 .blog-post p {
     margin: 10px 0;
-    color: #ccc; /* Lighter text color */
+    color: #ccc; 
 }
 
 .blog-post a {
@@ -93,23 +75,65 @@ nav a {
     background-color: #0056b3;
 }
 
-/* styles.css */
 
-/* Style for the "Return To Home Page" button */
 .return-home {
     position: fixed;
-    bottom: 20px; /* Adjust the desired position */
-    right: 20px; /* Adjust the desired position */
+    bottom: 20px; 
+    right: 20px; 
     background-color: #ff004f;
     color: #fff;
     padding: 10px 20px;
     border-radius: 4px;
     text-decoration: none;
     font-weight: 600;
-    z-index: 100; /* Ensure the button appears above other content */
+    z-index: 100; 
     transition: background-color 0.3s;
 }
 
 .return-home:hover {
     background-color: #0056b3;
+}
+
+.read-more-container {
+    display: flex;
+    flex-direction: column;
+    color: #111;
+    gap: 1rem;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .1);
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+.read-more-btn {
+    color: #0984e3;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.read-more-text {
+    display: none;
+}
+
+.read-more-text--show {
+    display: block;
+}
+
+
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    background-color: #555; 
+    color: white; 
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
 }

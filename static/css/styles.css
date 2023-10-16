@@ -67,6 +67,7 @@ nav {
 }
 .logo {
   width: 140px;
+  text-align: center;
 }
 nav ul li {
   display: inline-block;
