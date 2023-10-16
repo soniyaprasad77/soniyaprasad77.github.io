@@ -1,0 +1,115 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Dark background */
+    color: #fff; /* Light text color */
+}
+
+header {
+    background-color: #333; /* Darker header */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.logo{
+    align-items: center;
+    color:rgb(0, 219, 253)
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.blog {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.blog-post {
+    background-color: #8a8a8a; /* Darker blog post background */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
+    margin: 20px;
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+}
+
+.blog-post img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.blog-post h2 {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #fff; /* White title text */
+}
+
+.blog-post p {
+    margin: 10px 0;
+    color: #ccc; /* Lighter text color */
+}
+
+.blog-post a {
+    text-decoration: none;
+    background-color:#ff004f;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.blog-post a:hover {
+    background-color: #0056b3;
+}
+
+/* styles.css */
+
+/* Style for the "Return To Home Page" button */
+.return-home {
+    position: fixed;
+    bottom: 20px; /* Adjust the desired position */
+    right: 20px; /* Adjust the desired position */
+    background-color: #ff004f;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    z-index: 100; /* Ensure the button appears above other content */
+    transition: background-color 0.3s;
+}
+
+.return-home:hover {
+    background-color: #0056b3;
+}
