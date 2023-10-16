@@ -66,7 +66,7 @@ nav {
   transition: background-color 0.5s ease-in-out;
 }
 .logo-text {
-  background: -webkit-linear-gradient(#00BCF4, #4536ec);
+  background: -webkit-linear-gradient(#00bcf4, #4536ec);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -128,7 +128,6 @@ nav.scrolled {
 .about-col-1 img {
   width: 100%;
   border-radius: 15px;
-
 }
 
 .about-col-2 {
@@ -277,6 +276,7 @@ nav.scrolled {
   text-decoration: none;
   color: white;
   transition: background 0.5s;
+  transition: all ease 0.3s;
 }
 .btn:hover {
   background: #ff004f;
@@ -285,13 +285,13 @@ nav.scrolled {
   display: inline-block;
   background: #ff004f;
 }
-.btn.btn2:hover{
- transform: scale(1.1);
- box-shadow: 2px 2px 2px rgb(138, 135, 135);
+.btn.btn2:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 2px 2px rgb(138, 135, 135);
 }
-.btn.btn2:active{
- transform: scale(0.9);
- box-shadow: 1px 2px 15px white;
+.btn.btn2:active {
+  transform: scale(0.9);
+  box-shadow: 1px 2px 15px white;
 }
 
 .contact-right form {
@@ -307,6 +307,7 @@ form textarea {
   padding: 15px;
   margin: 15px 0;
   color: #fff;
+  resize: none;
   font-size: 18px;
   border-radius: 6px;
 }
@@ -315,6 +316,7 @@ form .btn2 {
   font-size: 18px;
   margin-top: 20px;
   cursor: pointer;
+  transition: all ease 0.3s;
 }
 
 .copyright {
@@ -332,11 +334,10 @@ nav .fas {
   display: none;
 }
 
-.p-007{
+.p-007 {
   text-align: justify;
   margin-top: 5%;
 }
-
 
 /* -------------------css for small screen----------------------- */
 
