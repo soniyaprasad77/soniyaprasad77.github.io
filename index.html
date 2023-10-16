@@ -49,9 +49,12 @@
       <div class="container">
         <div class="row">
           <div class="about-col-1">
-            <img class="img007" src="./assets/images/Profile/Photo-to-use.png" />
+            <img
+              class="img007"
+              src="./assets/images/Profile/Photo-to-use.png"
+            />
           </div>
-          <div class="about-col-2">
+          <div class="about-col-2 animate-entry-1">
             <h1 class="sub-title">About Me</h1>
             <p class="p-007">
               "Hi, I'm Soniya Prasad. I'm a student pursuing a Bachelor of
@@ -128,7 +131,7 @@
     <div id="projects">
       <div class="container">
         <h1 class="sub-title">My Projects</h1>
-        <div class="projects-list">
+        <div class="projects-list animate-entry-1">
           <div>
             <i class="fa-brands fa-css3-alt"></i>
             <h2>CSS Documentation Page</h2>
@@ -213,7 +216,7 @@
               >Download CV</a
             >
           </div>
-          <div class="contact-right">
+          <div class="contact-right animate-entry-1">
             <form name="submit-to-google-sheet">
               <input
                 type="text"
@@ -296,6 +299,21 @@
       window.addEventListener("scroll", function () {
         var nav = document.querySelector("nav");
         nav.classList.toggle("scrolled", window.scrollY > 0);
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const slideInElement = document.querySelectorAll(".animate-entry-1");
+
+        const observer = new IntersectionObserver((entries, observer) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("active-animation");
+              // observer.unobserve(entry);
+            }
+          });
+        });
+        slideInElement.forEach((el) => observer.observe(el));
       });
     </script>
     <script type="application/ld+json">
