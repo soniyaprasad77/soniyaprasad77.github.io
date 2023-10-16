@@ -349,6 +349,7 @@ nav .fas {
     padding-top: 50px;
     z-index: 2;
     transition: right 0.5s;
+    height: 100vh;
   }
   nav ul li {
     display: block;
