@@ -348,6 +348,9 @@ form .btn2 {
   font-weight: 300;
   margin-top: 20px;
 }
+.copyright p {
+  font-family: "Gabarito", sans-serif;
+}
 .copyright i {
   color: red;
 }
