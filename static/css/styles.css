@@ -74,6 +74,7 @@ nav {
 }
 .logo {
   width: 140px;
+  text-align: center;
 }
 nav ul li {
   display: inline-block;
@@ -115,6 +116,7 @@ nav.scrolled {
 .header-text h1 span {
   color: #ff004f;
 }
+
 /*------About-------*/
 .animate-entry-1 {
   transform: translateY(30%);
@@ -145,6 +147,10 @@ nav.scrolled {
   font-size: 60px;
   font-weight: 50px;
 }
+#self_info{
+  text-align: justify;
+  padding : 10px 0px ;
+}
 .tab-titles {
   display: flex;
   margin: 20px 0 40px;
@@ -167,7 +173,7 @@ nav.scrolled {
   transition: 0.5s;
 }
 .tab-links.active-link::after {
-  width: 50%;
+  width: 100%;
 }
 .tab-contents ul li {
   list-style: none;
@@ -292,6 +298,13 @@ nav.scrolled {
 .btn.btn2 {
   display: inline-block;
   background: #ff004f;
+  border: 3px solid #ff004f;
+  
+}
+.btn2:hover{
+  color: #ff004f;
+  background-color: white;
+
 }
 .btn.btn2:hover {
   transform: scale(1.1);
