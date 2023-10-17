@@ -20,14 +20,13 @@ Before you begin, ensure you have met the following requirements:
 
 4. Use the following command to clone the repository (replace `YOUR_USERNAME` with your GitHub username):
 
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/soniyaprasad77.github.io.git
-   ```
+  ```bash
+   git clone https://github.com/YOUR_USERNAME/soniyaprasad77.github.io
+  ```
   1. Once the repository is cloned, navigate into the project directory:
-  
-    ```bash
-    cd soniyaprasad77.github.io
-    ```
+  ```bash
+   cd soniyaprasad77.github.io
+  ```
   2. Open the index.html file in your web browser or use a code editor to view the website locally.
   That's it, and you are ready to go! 🚀
 
