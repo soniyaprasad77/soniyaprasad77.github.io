@@ -17,7 +17,7 @@ body {
 #header {
   width: 100%;
   height: 100vh;
-  background-image: URL("../../assets/images/Background-design-desktop.png");
+  background-image: url("/assets/images/Background-design-desktop.png");
   background-size: cover;
   background-position: center;
 }
@@ -59,27 +59,39 @@ nav {
   justify-content: space-around;
   flex-wrap: wrap;
   position: fixed;
+  padding: 1rem 0;
   top: 0;
   width: 100%;
   left: 0;
   z-index: 9999;
   transition: background-color 0.5s ease-in-out;
+  font-size: 2.5rem;
 }
 .logo-text {
-  background: -webkit-linear-gradient(#00bcf4, #4536ec);
   -webkit-background-clip: text;
   background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 20px;
+  /* font-size: 20px; */
+  color: #ff004f;
+  font-weight: bold;
 }
 .logo {
-  width: 140px;
   text-align: center;
 }
+
+nav ul {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+nav ul i {
+  text-align: right;
+}
+
 nav ul li {
-  display: inline-block;
+  display: inline-flex;
   list-style: none;
-  margin: 10px;
+  /* margin: 10px; */
 }
 nav ul li a {
   color: #fff;
@@ -147,9 +159,9 @@ nav.scrolled {
   font-size: 60px;
   font-weight: 50px;
 }
-#self_info{
+#self_info {
   text-align: justify;
-  padding : 10px 0px ;
+  padding: 10px 0px;
 }
 .tab-titles {
   display: flex;
@@ -299,12 +311,10 @@ nav.scrolled {
   display: inline-block;
   background: #ff004f;
   border: 3px solid #ff004f;
-  
 }
-.btn2:hover{
+.btn2:hover {
   color: #ff004f;
   background-color: white;
-
 }
 .btn.btn2:hover {
   transform: scale(1.1);
@@ -364,7 +374,8 @@ nav .fas {
 
 @media only screen and (max-width: 600px) {
   #header {
-    background-image: URL("../../assets/images/Background-design-mobile.png");
+    /* background-image: url("/assets/images/Background-design-mobile.png"); */
+    background-image: none;
   }
   .header-text {
     font-size: 16px;
@@ -379,6 +390,7 @@ nav .fas {
     font-size: 25px;
   }
   nav ul {
+    display: block;
     background: #ff004f;
     position: fixed;
     top: 0;
