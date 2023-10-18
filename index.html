@@ -45,14 +45,15 @@
     </div>
 
     <!----------------------------About----------------------------->
+
     <div id="about">
       <div class="container">
         <div class="row">
           <div class="about-col-1">
-            <img
-              class="img007"
-              src="./assets/images/Profile/Photo-to-use.png"
-            />
+            <div class="images">
+              <img src="shape1.png"alt="" class="shape">
+              <img src="./assets/images/Profile/Photo-to-use.png" alt="" class="girl">
+          </div>
           </div>
           <div class="about-col-2 animate-entry-1">
             <h1 class="sub-title">About Me</h1>
@@ -336,3 +337,44 @@
     </script>
   </body>
 </html>
+
+
+<style>
+.images {
+    width: 20%;
+    height: 50%;
+    position: absolute;
+    left: 50px;
+    bottom: -56%; /* Adjust this value to move the images down */
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+        width: 30%; /* Adjust the width for smaller screens */
+        left: 10px; /* Adjust the left position for smaller screens */
+        bottom: -40%; /* Adjust the bottom position for smaller screens */
+    }
+
+    @media (max-width: 480px) {
+        width: 40%; /* Adjust the width for even smaller screens */
+        left: 5px; /* Adjust the left position for even smaller screens */
+        bottom: -20%; /* Adjust the bottom position for even smaller screens */
+    }
+}
+
+.images img {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover .shape {
+    bottom: 40px;
+}
+
+.images:hover .girl {
+    left: 45%;
+}
+</style>
