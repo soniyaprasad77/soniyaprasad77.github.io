@@ -29,6 +29,7 @@
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li><a href="#review">Review</a></li>
             <li><a href="blog.html">More</a></li>
             <i class="fas fa-times" onclick="closemenu()"></i>
           </ul>
@@ -245,6 +246,20 @@
           </div>
         </div>
       </div>
+      <!---------------------------- Review ----------------------------------->
+      <section id="review">
+        <div class="container">
+          <h2 class="under sub-title">Review</h2>
+          <br>
+          <form action="#">
+              <h3 style="font-size: 30px;">Your reviews here:</h3>
+              <textarea id="review-section" name="review" placeholder="write here"></textarea>
+              <button type="submit" class="submit-button btn btn2" onclick="thanking();">Submit</button>
+          </form>
+          <div id="thanks"></div>
+        </div>
+
+      </section>
       <!-- My btn -->
       <button class="back-to-top hidden-top-btn">
         <a href="#header"><i class="fa-solid fa-arrow-up fa-xl"></i></a>
@@ -334,5 +349,11 @@
         "prepTime": "PT20M"
       }
     </script>
+    <script>
+      function thanking(){
+          document.getElementById("thanks").innerHTML="Thanks for your review!!";
+
+      }
+  </script>
   </body>
 </html>
