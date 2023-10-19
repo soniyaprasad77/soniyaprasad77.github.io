@@ -460,3 +460,7 @@ body::-webkit-scrollbar-thumb {
   background-color: #262626;
   border-radius: 5px;
 }
+#thanks{
+  font-size: large;
+  font-weight: bold;
+}
