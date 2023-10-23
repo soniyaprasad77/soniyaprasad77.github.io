@@ -453,3 +453,7 @@ body::-webkit-scrollbar-thumb {
   font-size: large;
   font-weight: bold;
 }
+.email{
+  text-decoration: none;
+  color: #ffff;
+}
