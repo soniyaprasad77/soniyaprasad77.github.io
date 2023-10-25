@@ -3,8 +3,9 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "poppins", sans-serif;
+  /* font-family: "poppins", sans-serif; */
   box-sizing: border-box;
+  font-family: "Gabarito", serif;
 }
 html {
   scroll-behavior: smooth;
@@ -150,7 +151,12 @@ nav.scrolled {
 }
 #self_info{
   text-align: justify;
-  padding : 10px 0px ;
+  padding : 10px 0px;
+  font-family: "Gabarito", serif;
+  letter-spacing: 0.5px;
+  line-height: 1.3rem;
+  word-spacing: 2.5px;
+  font-size: 18px;
 }
 .tab-titles {
   display: flex;
@@ -162,6 +168,10 @@ nav.scrolled {
   font-weight: 500;
   position: relative;
   cursor: pointer;
+  font-family: "Gabarito", serif;
+  letter-spacing: 0.5px;
+  word-spacing: 2.5px;
+  font-size: 30px;
 }
 .tab-links::after {
   content: "";
@@ -182,7 +192,9 @@ nav.scrolled {
 }
 .tab-contents ul li span {
   color: #ff004f;
-  font-size: 14px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 2rem;
 }
 .tab-contents {
   display: none;
@@ -359,6 +371,10 @@ nav .fas {
 .p-007 {
   text-align: justify;
   margin-top: 5%;
+  letter-spacing: 0.2px;
+  line-height: 1.3rem;
+  /* word-spacing: 0.2px; */
+  font-size: 15px;
 }
 
 /* -------------------css for small screen----------------------- */
