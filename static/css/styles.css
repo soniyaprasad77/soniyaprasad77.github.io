@@ -155,7 +155,7 @@ nav.scrolled {
   font-family: "Gabarito", serif;
   letter-spacing: 0.5px;
   line-height: 1.3rem;
-  word-spacing: 2.5px;
+  word-spacing: 1.5px;
   font-size: 18px;
 }
 .tab-titles {
@@ -373,7 +373,7 @@ nav .fas {
   margin-top: 5%;
   letter-spacing: 0.2px;
   line-height: 1.3rem;
-  /* word-spacing: 0.2px; */
+  word-spacing: -1px;
   font-size: 15px;
 }
 
