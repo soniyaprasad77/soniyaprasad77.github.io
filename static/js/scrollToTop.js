@@ -1,20 +1,20 @@
-const showOnPx = 100;
+
+const showOnPx = 600;
 const backToTopButton = document.querySelector(".back-to-top");
 
-const scrollContainer = () => {
-  return document.documentElement || document.body;
-};
-
 document.addEventListener("scroll", () => {
-  if (scrollContainer().scrollTop > showOnPx) {
-    backToTopButton.classList.remove("hidden-top-btn");
+  if (window.scrollY > showOnPx) {
+    backToTopButton.style.display = "block"; 
   } else {
-    backToTopButton.classList.add("hidden-top-btn");
+    backToTopButton.style.display = "none"; 
   }
 });
+
 const goToTop = () => {
-  document.body.scrollIntoView({
+  window.scrollTo({
+    top: 0,
     behavior: "smooth",
   });
 };
+
 backToTopButton.addEventListener("click", goToTop);
