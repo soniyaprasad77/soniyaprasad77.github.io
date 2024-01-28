@@ -11,16 +11,15 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-color: #080808;
+  background-color: #fdfaec;
   color: #fff;
   padding: 0;
 }
 #header {
   width: 100%;
   height: 100vh;
-  background-image: URL("../../assets/images/Background-design-desktop.png");
-  background-size: cover;
-  background-position: center;
+  background-color: #fdfaec;
+
 }
 .back-to-top {
   position: fixed;
