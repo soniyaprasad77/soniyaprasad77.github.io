@@ -220,7 +220,7 @@ nav.scrolled {
   font-size: 13px;
   font-weight: 300;
   border-radius: 10px;
-  transition: backround 0.5s, transform 0.5s;
+  transition: background 0.5s, transform 0.5s;
 }
 .projects-list div i {
   font-size: 50px;
@@ -287,11 +287,10 @@ nav.scrolled {
   margin-right: 15px;
   color: #ababab;
   display: inline-block;
-  transition: transform 0.5s;
 }
 .social-icons a:hover {
   color: #ff004f;
-  transform: translateY(-5px);
+
 }
 .btn {
   display: block;
@@ -302,8 +301,6 @@ nav.scrolled {
   border-radius: 6px;
   text-decoration: none;
   color: white;
-  transition: background 0.5s;
-  transition: all ease 0.3s;
 }
 .btn:hover {
   background: #ff004f;
@@ -320,13 +317,9 @@ nav.scrolled {
 
 }
 .btn.btn2:hover {
-  transform: scale(1.1);
   box-shadow: 2px 2px 2px rgb(138, 135, 135);
 }
-.btn.btn2:active {
-  transform: scale(0.9);
-  box-shadow: 1px 2px 15px white;
-}
+
 
 .contact-right form {
   width: 100%;
@@ -381,7 +374,8 @@ nav .fas {
 
 @media only screen and (max-width: 600px) {
   #header {
-    background-image: URL("../../assets/images/Background-design-mobile.png");
+   background-color: #fdfaec;
+
   }
   .header-text {
     font-size: 16px;
