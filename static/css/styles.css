@@ -119,15 +119,7 @@ nav.scrolled {
 }
 
 /*------About-------*/
-.animate-entry-1 {
-  transform: translateY(30%);
-  transition: all 1s ease;
-  opacity: 0;
-}
-.animate-entry-1.active-animation {
-  transform: translateY(0);
-  opacity: 1;
-}
+
 .row {
   display: flex;
   justify-content: space-between;
