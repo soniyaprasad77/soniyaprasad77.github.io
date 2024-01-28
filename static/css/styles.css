@@ -12,7 +12,7 @@ html {
 }
 body {
   background-color: #fdfaec;
-  color: #fff;
+  color: #A9A9A9;
   padding: 0;
 }
 #header {
@@ -40,7 +40,7 @@ body {
   transition-duration: 0.5s;
 }
 .back-to-top > a:hover {
-  color: white;
+  color: gray;
 }
 
 h1 {
@@ -140,6 +140,7 @@ nav.scrolled {
 .sub-title {
   font-size: 60px;
   font-weight: 50px;
+  color:#A9A9A9;
 }
 #self_info{
   text-align: justify;
