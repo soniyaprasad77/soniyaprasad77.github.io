@@ -29186,6 +29186,6 @@ module.exports = require("50672d8acd78cd10").getBundleURL("bLxZJ") + "blog-image
 },{"50672d8acd78cd10":"lgJ39"}],"cEjUq":[function(require,module,exports) {
 module.exports = require("883ca26217c6aa83").getBundleURL("bLxZJ") + "blog-background.7c651a8a.jpg" + "?" + Date.now();
 
-},{"883ca26217c6aa83":"lgJ39"}],"lW6qc":[function() {},{}]},["farZc","1xC6H","8lqZg"], "8lqZg", "parcelRequire6158")
+},{"883ca26217c6aa83":"lgJ39"}],"lW6qc":[function() {},{}]},["farZc","1xC6H","8lqZg"], "8lqZg", "parcelRequire528a")
 
 //# sourceMappingURL=index.975ef6c8.js.map
