@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "this is my personal portfolio",
   "source": "src/index.html",
-  "homepage": "https://soniyaprasad77.github.io/portfolio/",
+  "homepage": "https://soniyaprasad77.github.io/portfolio",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://soniyaprasad77.github.io/portfolio/'",
+    "build-gh": "parcel build --public-url 'https://soniyaprasad77.github.io/portfolio'",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
