@@ -8,8 +8,8 @@
     "start": "parcel",
     "build": "parcel build",
     "build-gh": "parcel build --public-url 'https://soniyaprasad77.github.io/portfolio/'",
-    "predeploy": "npm run build-gh",
-    "deploy": "gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
