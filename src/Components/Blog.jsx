@@ -20,7 +20,7 @@ const blogList = [
   {
     title: "Access vs Refresh Tokens in Backend",
     description:
-    "In my article, I demystify the crucial roles of access and refresh tokens in web development's authentication and authorization. Discover how these tokens ensure secure communication between client applications and servers, empowering developers to safeguard user resources effectively.",
+      "In my article, I demystify the crucial roles of access and refresh tokens in web development's authentication and authorization. Discover how these tokens ensure secure communication between client applications and servers, empowering developers to safeguard user resources effectively.",
     url: "https://soniyaprasad.hashnode.dev/access-vs-refresh-tokens",
   },
   {
@@ -40,7 +40,7 @@ const Blog = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}></div>
         <div className="container">
           {blogList.map((blogPost) => (
-            <div className="box" key={blogPost.title}>
+            <div className="box" key={blogPost.title} >
               <a href={blogPost.url} target="_blank" rel="noopener noreferrer">
                 <h3 style={{ flexBasis: "40px" }}>{blogPost.title}</h3>
               </a>

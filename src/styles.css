@@ -120,6 +120,7 @@ a:hover {
   justify-content: flex-start;
   padding: 24px 16px;
   text-align: center;
+  background-color: white;
 }
 
 img.socialIcon {
