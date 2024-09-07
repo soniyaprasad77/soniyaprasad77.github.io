@@ -12,24 +12,32 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4 # Update to the latest version
+        uses: actions/checkout@v4
 
       - name: Setup Node
-        uses: actions/setup-node@v3 # Update to the latest version
+        uses: actions/setup-node@v3
         with:
-          node-version: 20
+          node-version: 16
+
+      - name: Cache Node.js modules
+        uses: actions/cache@v3
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
 
       - name: Install dependencies
-        uses: bahmutov/npm-install@v1
+        run: npm ci # Recommended over npm install in CI environments
 
       - name: Build project
-        run: npm run build
+        run: npm run build --loglevel verbose
 
       - name: Upload production-ready build files
-        uses: actions/upload-artifact@v3 # Update to the latest version
+        uses: actions/upload-artifact@v3
         with:
           name: production-files
-          path: ./dist
+          path: ./dist # Ensure this is the correct build directory
 
   deploy:
     name: Deploy
@@ -39,7 +47,7 @@ jobs:
 
     steps:
       - name: Download artifact
-        uses: actions/download-artifact@v3 # Update to the latest version
+        uses: actions/download-artifact@v3
         with:
           name: production-files
           path: ./dist
